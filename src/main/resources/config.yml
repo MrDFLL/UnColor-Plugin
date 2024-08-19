@@ -1,0 +1,29 @@
+version: "1.0"
+
+# Default false
+need-permission: false
+# Permission for uncoloring if need-permission is enabled
+permission: uncolor.uncolor
+
+# Enable Uncoloring feature for
+enable-wool: true
+enable-beds: true
+enable-terracotta: true
+enable-concrete: true
+enable-concrete-powder: true
+
+# Require to be sneaking when dropping to uncolor
+# Default true
+require-sneaking: true
+
+# Percent of uncoloring dropping dye [0 -> 100]
+# Keep in mind higher values may be used for duping dye for example dying 8 terracotta blocks needs 1 dye
+# if dye percent is 100 then it will give 8 dyes
+# Default 10%
+dye-percent: 8
+
+# How Many ticks between each check
+# Higher values may make uncoloring takes more delay to happen
+# Smaller values may be bad for performance
+# Default 10 Ticks
+run-item-check-schedule-every: 10
