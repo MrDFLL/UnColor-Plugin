@@ -27,7 +27,7 @@ public class Main extends JavaPlugin {
     UnColor.needPermission = getConfig().getBoolean("need-permission");
     UnColor.permission = getConfig().getString("permission");
 
-    if (UnColor.permission.strip().isEmpty()) {
+    if (UnColor.permission.isEmpty()) {
       UnColor.needPermission = false;
     }
 

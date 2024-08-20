@@ -1,4 +1,4 @@
-version: "1.0"
+version: "1.1.1"
 
 # Default false
 need-permission: false
@@ -19,7 +19,7 @@ require-sneaking: true
 # Percent of uncoloring dropping dye [0 -> 100]
 # Keep in mind higher values may be used for duping dye for example dying 8 terracotta blocks needs 1 dye
 # if dye percent is 100 then it will give 8 dyes
-# Default 10%
+# Default 8%
 dye-percent: 8
 
 # How Many ticks between each check
